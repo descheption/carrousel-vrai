@@ -1,0 +1,244 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.burger{
+  background: none;
+  position: relative;
+  left: -100%;
+  top: 10%;
+  width: 50px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  
+}
+
+h3{
+  position: absolute;
+  left: 10%;
+  top: 100%;
+}
+.filter{
+  position: relative;
+  left: 80%;
+  top: 300px;
+  width: 110px;
+  height: 30px;
+}
+
+  .carousel-item {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    left: 5%;
+  }
+
+  .info{
+    background-color: chartreuse;
+    overflow: hidden;
+    position: absolute;
+    left: 20%;
+    top: 85%;
+  }
+    .red{
+      width: 1200px;
+      height: 300px;   
+    }
+
+   .carouselle-item{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+   }
+   .carousell-item{
+    position: absolute;
+    top: 110%;
+    left: 20%;
+   }
+
+   .carousell-items{
+    position: absolute;
+    top: 150%;
+    left: 20%;
+   }
+
+   .carouselle-items{
+    position: absolute;
+    top: 65%;
+   }
+    
+    .description{
+      position: relative;
+      left: 50%;
+      top: -250px;
+    }
+
+    .description2{
+      position: relative;
+      left: 52%;
+      top: -250px;
+    }
+
+    #btn{
+      width: 150px;
+      height: 25px;
+      background-color: blueviolet;
+    }
+
+    .slider-wrapper {
+      margin: 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .slides-container {
+      height: 250px;
+      width: 300px;
+      display: flex;
+      overflow: hidden;
+      scroll-behavior: smooth;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .slide-container {
+      height: 250px;
+      width: 300px;
+      display: flex;
+      overflow: hidden;
+      scroll-behavior: smooth;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .slide-arrow {
+      position: absolute;
+      display: flex;
+      margin: auto;
+      height: 4rem;
+      background-color: rgb(34,193,195);;
+      border: none;
+      width: 2rem;
+      font-size: 3rem;
+      padding: 0;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 100ms;
+    }
+    .slides-arrow {
+      position: absolute;
+      display: flex;
+      margin: auto;
+      height: 4rem;
+      background-color:  rgb(34,193,195);;
+      border: none;
+      width: 2rem;
+      font-size: 3rem;
+      padding: 0;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 100ms;
+    }
+        
+    #slide-arrow-prev {
+      left: -1%;
+      top: 27%;
+      padding-left: 0.25rem;
+      border-radius: 0 2rem 2rem 0;
+    }
+    
+    #slide-arrow-next {
+      left: 45%;
+      top: 27%;
+      padding-left: 0.75rem;
+      border-radius: 2rem 0 0 2rem;
+    }
+    
+    #slide-arrow-prev1 {
+      left: -1%;
+      top: 27%;
+      padding-left: 0.25rem;
+      border-radius: 0 2rem 2rem 0;
+    }
+    
+    #slide-arrow-next1 {
+      left: 45%;
+      top: 27%;
+      padding-left: 0.75rem;
+      border-radius: 2rem 0 0 2rem;
+    }
+
+    #slide-arrow-prev2 {
+      left: -1%;
+      top: 27%;
+      padding-left: 0.25rem;
+      border-radius: 0 2rem 2rem 0;
+    }
+    
+    #slide-arrow-next2 {
+      left: 45%;
+      top: 27%;
+      padding-left: 0.75rem;
+      border-radius: 2rem 0 0 2rem;
+    }
+     
+    #slide-arrow-prev3 {
+      left: -1%;
+      top: 27%;
+      padding-left: 0.25rem;
+      border-radius: 0 2rem 2rem 0;
+    }
+    
+    #slide-arrow-next3 {
+      left: 45%;
+      top: 27%;
+      padding-left: 0.75rem;
+      border-radius: 2rem 0 0 2rem;
+    }
+    
+    .slide {
+      width: 100px;
+      height: 200px;
+      flex: 1 0 100%;
+    }
+    
+    #trait_dessus{
+    border-top: 1px solid gray;
+    width : 100%;
+    } 
+
+.agence{
+  position: relative;
+  left: 3%;
+  margin-top: 10px;
+}
+    .f{
+      position: relative;
+      left: 45%;
+      top: -150px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+    @media (max-width: 800px) {
+      body{
+        background-color:  black ;
+      }
+  
+  }
